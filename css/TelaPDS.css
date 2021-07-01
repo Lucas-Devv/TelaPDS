@@ -1,0 +1,50 @@
+body{background-color: #252525;}
+.titulo{
+    color: white;
+    text-align: center;
+    border: 2px solid #8257e5;
+    width: 500px;
+    margin: 50 auto;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+}
+#busca{
+    margin: 90px auto;
+    display: block;
+    border-radius: 15px;
+    width: 550px;
+    height: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 0 1em;
+    background-image: url("contorno-da-lupa-de-pesquisa.png");
+    background-repeat: no-repeat;
+    background-position: 500px;
+
+}
+.botao{
+  background-color: #8257e5;
+  border: none;
+  color: white;
+  padding: 32px;
+  width: 250px;
+  text-align: center;
+  text-decoration: none; 
+  font-size: 16px;
+  margin: 60px 150px;
+  cursor: pointer;
+}
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+button:hover {
+    background-color: #35b09b;
+    transition: .3s;
+}
+textarea:focus, input:focus, select:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
